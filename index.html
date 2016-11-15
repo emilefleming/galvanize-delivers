@@ -17,20 +17,22 @@
     <link rel="stylesheet" href="css/custom.css" media="screen">
   </head>
   <body class="grey darken-1">
-    <nav>
-      <div class="nav-wrapper grey darken-3 hoverable">
-        <a href="#!" class="brand-logo center">heart<i class="material-icons pink-text">favorite</i></a>
-        <a href="#" class="button-collapse" data-activates="mobile-demo"><i class="material-icons grey-text">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="#"><i class="material-icons grey-text">home</i></a></li>
-          <li><a href="#order"><i class="material-icons grey-text">shopping_cart</i></a></li>
-        </ul>
-        <ul class="side-nav pink" id="mobile-demo">
-          <li><a href="#" class="white-text">Home</a></li>
-          <li><a href="#orders" class="white-text">Orders</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper grey darken-3">
+          <a href="#!" class="brand-logo center">heart<i class="material-icons pink-text">favorite</i></a>
+          <a href="#" class="button-collapse" data-activates="mobile-demo"><i class="material-icons grey-text">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="#"><i class="material-icons grey-text">home</i></a></li>
+            <li><a href="#order"><i class="material-icons grey-text">shopping_cart</i></a></li>
+          </ul>
+          <ul class="side-nav pink" id="mobile-demo">
+            <li><a href="#" class="white-text"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="#orders" class="white-text"><i class="material-icons left">shopping_cart</i>Cart</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <main>
       <div class="hero valign-wrapper">
         <div class="center card-panel pink hoverable">
@@ -42,28 +44,31 @@
         <div class="row">
           <div class="col s12 l4 center-align">
             <i class="material-icons grey-text text-darken-3 large">favorite</i>
-            <div class="valign-wrapper">
-              <i class="valign material-icons pink-text">favorites</i><h5 class="valign">It's super swell</h5>
-            </div>
-            <p class="flow-text left-align">
+            <h5 class="left-align">
+              <i class="material-icons pink-text">done</i>
+              It's super swell
+            </h5>
+            <p class="left-align">
               Fewer than 750 million lifetime beats on average, freshness guaranteed!
             </p>
           </div>
           <div class="col s12 l4 center-align">
             <i class="material-icons grey-text text-darken-3 large">thumb_up</i>
-            <div class="valign-wrapper">
-              <i class="valign material-icons pink-text">favorites</i><h5 class="valign center">Totally kickass</h5>
-            </div>
-            <p class="flow-text left-align">
+            <h5 class="left-align">
+              <i class="material-icons pink-text">done</i>
+              Totes awesome
+            </h5>
+            <p class="left-align">
               Smoker's hearts now 50% off. Buy 2 and get 1 lung free.
             </p>
           </div>
           <div class="col s12 l4 center-align">
             <i class="material-icons grey-text text-darken-3 large">redeem</i>
-            <div class="valign-wrapper">
-              <i class="valign material-icons pink-text">favorites</i><h5 class="valign center">Buy it srsly</h5>
-            </div>
-            <p class="flow-text left-align">
+            <h5 class="left-align">
+              <i class="material-icons pink-text">done</i>
+              The best TBH
+            </h5>
+            <p class="left-align">
               Ships FREE in a premium midcentury modern walnut box. Great for gifts!
             </p>
           </div>

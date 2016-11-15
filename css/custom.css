@@ -41,3 +41,15 @@ h3 {
 .footer-copyright {
   padding: 10px 0;
 }
+
+.button-collapse {
+  margin-left: 20px;
+}
+
+i {
+  vertical-align: bottom;
+}
+
+.nav-wrapper li {
+  height: 62px;
+}
