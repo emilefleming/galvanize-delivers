@@ -23,8 +23,8 @@
           <a href="index.html" class="brand-logo center">heart<i class="material-icons pink-text">favorite</i></a>
           <a href="#" class="button-collapse hide-on-med-and-up" data-activates="mobile-demo"><i class="material-icons grey-text">menu</i></a>
           <ul class="right hide-on-small-only">
-            <li class="active"><a href="index.html"><i class="material-icons grey-text">home</i></a></li>
-            <li><a href="#!"><i class="material-icons grey-text">shopping_cart</i></a></li>
+            <li><a href="index.html"><i class="material-icons grey-text">home</i></a></li>
+            <li class="active"><a href="#!"><i class="material-icons grey-text">shopping_cart</i></a></li>
           </ul>
           <ul class="side-nav pink" id="mobile-demo">
             <li><a href="index.html" class="white-text"><i class="material-icons left">home</i>Home</a></li>
@@ -35,12 +35,12 @@
     </div>
     <main>
       <div class="container">
-        <div class="row white-text">
+        <div class="row white-text wrap">
           <div class="col s12 m6 l8">
-            <h5 class="center-align">Organs</h5>
+            <h6 class="center-align grey-text">PRODUCTS</h6>
             <div class="row products">
               <div class="container col s12 l6">
-                <div class="card grey-text text-darken-4">
+                <div class="card grey lighten-3 grey-text text-darken-4 hoverable">
                   <div class="card-image">
                     <div class="card-background" id="heart"></div>
                   </div>
@@ -64,7 +64,7 @@
               </div>
 
               <div class="container col s12 l6">
-                <div class="card grey-text text-darken-4">
+                <div class="card grey lighten-3 grey-text text-darken-4 hoverable">
                   <div class="card-image">
                     <div class="card-background" id="lungs"></div>
                   </div>
@@ -86,10 +86,35 @@
                   </div>
                 </div>
               </div>
+
+              <div class="container col s12 l6">
+                <div class="card grey lighten-3 grey-text text-darken-4 hoverable">
+                  <div class="card-image">
+                    <div class="card-background" id="tools"></div>
+                  </div>
+                  <div class="card-content grey-text text-darken-4">
+                    <div class="card-title activator">DIY Kit<i class="material-icons right">more_vert</i></div>
+                    <h6 class="grey-text">$99</h5>
+                  </div>
+                  <div class="card-action center">
+                    <button type="button" class="btn pink">Buy</button>
+                  </div>
+                  <div class="card-reveal">
+                    <div class="card-title"><h5>DIY KIT<i class="material-icons right">close</i></h5></div>
+                    <div class="row valign-wrapper">
+                      <i class="valign col s2 material-icons pink-text left">favorite</i>
+                      <p class="valign col s9">
+                      Why spend big money on organs when you can do it yourself? Includes everything you see plus a powerful, colorless, odorless sedative. #maker.
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
           <div class="col s12 m6 l4">
-            <h5 class="center-align">Cart</h5>
+            <h6 class="center-align grey-text">CART</h6>
             <table class="highlight bordered">
               <thead>
                 <tr>
@@ -122,6 +147,22 @@
               <tfoot>
                 <tr>
                   <td class="right-align">
+                    Subtotal
+                  </td>
+                  <td class="right-align">
+                    $1398
+                  </td>
+                </tr>
+                <tr>
+                  <td class="right-align">
+                    Tax
+                  </td>
+                  <td class="right-align">
+                    $0
+                  </td>
+                </tr>
+                <tr>
+                  <td class="right-align">
                     Total
                   </td>
                   <td class="right-align">
@@ -130,6 +171,25 @@
                 </tr>
               </tfoot>
             </table>
+            <form class="" action="index.html" method="post">
+              <h6 class="center-align grey-text">CONTACT</h6>
+              <div class="input-field">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" name="name" id="name">
+                <label for="nameame">First Name</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">phone</i>
+                <input type="text" name="phone" id="phone">
+                <label for="phone">Telephone</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">business</i>
+                <textarea class="materialize-textarea" name="address" id="address"></textarea>
+                <label for="address">Address</label>
+              </div>
+              <button class="pink btn" name="button">PLACE ORDER</button>
+            </form>
           </div>
         </div>
       </div>

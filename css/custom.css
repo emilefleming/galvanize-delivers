@@ -73,14 +73,50 @@ i {
   background-image: url("../img/lungs.png");
 }
 
+#tools {
+  background-image: url("../img/tools.png");
+}
+
 .card h5 {
   margin: 0;
 }
 
-.card-action button{
+.card-action button, form button{
   width: 100%;
 }
 
 .highlight tbody tr:hover {
   color: #333;
 }
+
+form h6{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+
+
+/* label color */
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #E91E63;
+ }
+
+ textarea.materialize-textarea:focus + label {
+   color: #E91E63 !important;
+ }
+
+
+ /* label underline focus color */
+ .input-field input[type=text]:focus, textarea:focus {
+   border-bottom: 1px solid #E91E63 !important;
+   box-shadow: 0 1px 0 0 #E91E63 !important;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #E91E63;
+ }
+
+ .wrap {
+   margin-top: 30px;
+ }
