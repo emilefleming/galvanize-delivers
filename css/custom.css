@@ -8,6 +8,36 @@ main {
   flex: 1 0 auto;
 }
 
+h3 {
+  padding: 0 20px;
+}
+
+i {
+  vertical-align: middle;
+}
+
+form h6{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.nav-wrapper li {
+  height: 62px;
+}
+
+
+.card h5 {
+  margin: 0;
+}
+
+.card-action button, form button{
+  width: 100%;
+}
+
+.highlight tbody tr:hover {
+  color: #333;
+}
+
 .hero {
   background-image: url("../img/heart.jpg");
   background-size: cover;
@@ -25,9 +55,6 @@ main {
   margin-left: 5px;
 }
 
-h3 {
-  padding: 0 20px;
-}
 
 .bottom-links li{
   padding: 3px;
@@ -46,13 +73,6 @@ h3 {
   margin-left: 20px;
 }
 
-i {
-  vertical-align: middle;
-}
-
-.nav-wrapper li {
-  height: 62px;
-}
 
 .card-background{
   background-position: center;
@@ -76,24 +96,6 @@ i {
 #tools {
   background-image: url("../img/tools.png");
 }
-
-.card h5 {
-  margin: 0;
-}
-
-.card-action button, form button{
-  width: 100%;
-}
-
-.highlight tbody tr:hover {
-  color: #333;
-}
-
-form h6{
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
 
 
 /* label color */
