@@ -80,3 +80,7 @@ i {
 .card-action button{
   width: 100%;
 }
+
+.highlight tbody tr:hover {
+  color: #333;
+}
