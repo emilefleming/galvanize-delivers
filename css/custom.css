@@ -47,9 +47,36 @@ h3 {
 }
 
 i {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 .nav-wrapper li {
   height: 62px;
+}
+
+.card-background{
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  background-size: contain;
+}
+
+.card .card-content .card-title{
+  line-height: 25px;
+}
+
+#heart {
+  background-image: url("../img/heart_buy.png");
+}
+
+#lungs {
+  background-image: url("../img/lungs.png");
+}
+
+.card h5 {
+  margin: 0;
+}
+
+.card-action button{
+  width: 100%;
 }
