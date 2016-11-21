@@ -50,7 +50,7 @@
                     <h6 class="grey-text">$599</h5>
                   </div>
                   <div class="card-action center">
-                    <button type="button" class="btn pink">Buy</button>
+                    <button type="button" class="btn pink" name="heart">Buy</button>
                   </div>
                   <div class="card-reveal">
                     <div class="card-title"><h5>HUMAN HEART<i class="material-icons right">close</i></h5></div>
@@ -74,7 +74,7 @@
                     <h6 class="grey-text">$899</h5>
                   </div>
                   <div class="card-action center">
-                    <button type="button" class="btn pink">Buy</button>
+                    <button type="button" class="btn pink" name="lungs">Buy</button>
                   </div>
                   <div class="card-reveal">
                     <div class="card-title"><h5>HUMAN LUNGS<i class="material-icons right">close</i></h5></div>
@@ -91,6 +91,30 @@
               <div class="col s12 l6">
                 <div class="card grey lighten-3 grey-text text-darken-4 hoverable">
                   <div class="card-image">
+                    <div class="card-background" id="liver"></div>
+                  </div>
+                  <div class="card-content grey-text text-darken-4">
+                    <div class="card-title activator">Human Liver<i class="material-icons right">more_vert</i></div>
+                    <h6 class="grey-text">$399</h5>
+                  </div>
+                  <div class="card-action center">
+                    <button type="button" class="btn pink" name="liver">Buy</button>
+                  </div>
+                  <div class="card-reveal">
+                    <div class="card-title"><h5>Human Liver<i class="material-icons right">close</i></h5></div>
+                    <div class="row valign-wrapper">
+                      <i class="valign col s1 material-icons pink-text left">favorite</i>
+                      <p class="valign col s11">
+                      Our premium livers are a bestseller! We harvest livers only from grass-fed, free range donor parters with NO antibiotics EVER.
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 l6">
+                <div class="card grey lighten-3 grey-text text-darken-4 hoverable">
+                  <div class="card-image">
                     <div class="card-background" id="tools"></div>
                   </div>
                   <div class="card-content grey-text text-darken-4">
@@ -98,7 +122,7 @@
                     <h6 class="grey-text">$99</h5>
                   </div>
                   <div class="card-action center">
-                    <button type="button" class="btn pink">Buy</button>
+                    <button type="button" class="btn pink" name="kit">Buy</button>
                   </div>
                   <div class="card-reveal">
                     <div class="card-title"><h5>DIY KIT<i class="material-icons right">close</i></h5></div>
@@ -128,35 +152,19 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>
-                    item1
-                  </td>
-                  <td class="right-align">
-                    $699
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    item2
-                  </td>
-                  <td class="right-align">
-                    $699
-                  </td>
-                </tr>
               </tbody>
               <tfoot>
                 <tr>
                   <td class="right-align">Subtotal</td>
-                  <td class="right-align">$1398</td>
+                  <td class="right-align" id="subtotal"></td>
                 </tr>
                 <tr>
                   <td class="right-align">Tax</td>
-                  <td class="right-align">$0</td>
+                  <td class="right-align" id="tax"></td>
                 </tr>
-                <tr>
+                <tr class="white pink-text">
                   <td class="right-align">Total</td>
-                  <td class="right-align">$1398</td>
+                  <td class="right-align" id="total"></td>
                 </tr>
               </tfoot>
             </table>
@@ -164,17 +172,17 @@
               <h6 class="center-align grey-text">CONTACT</h6>
               <div class="input-field">
                 <i class="material-icons prefix">account_circle</i>
-                <input type="text" name="name" id="name">
+                <input class="validate"  type="text" name="Name" id="name" >
                 <label for="name">First Name</label>
               </div>
               <div class="input-field">
                 <i class="material-icons prefix">phone</i>
-                <input type="text" name="phone" id="phone">
+                <input class="validate" type="text" name="Phone" id="phone" >
                 <label for="phone">Telephone</label>
               </div>
               <div class="input-field">
                 <i class="material-icons prefix">business</i>
-                <textarea class="materialize-textarea" name="address" id="address"></textarea>
+                <textarea class="materialize-textarea validate" name="Address" id="address" ></textarea>
                 <label for="address">Address</label>
               </div>
               <button class="pink btn" name="button">PLACE ORDER</button>
@@ -198,7 +206,7 @@
               <ul class="bottom-links">
                 <li><a class="grey-text" href="index.html">HOME</a></li>
                 <li><a class="grey-text" href="#">ORDER</a></li>
-                <li><a class="grey-text" href="#">LAWSUITS</a></li>
+                <li><a class="grey-text" href="#">OaaS</a></li>
                 <li><a class="grey-text" href="#">REFURBISHED</a></li>
             </ul>
             </div>
