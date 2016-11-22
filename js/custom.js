@@ -29,7 +29,6 @@ $( document ).ready(function(){
     $('<td>').text('$' + price.toFixed(2)).addClass('right-align').appendTo($row);
     $('tbody').append($row);
     subtotal += price;
-    console.log($('#subtotal'));
     $('#subtotal').text('$' + subtotal.toFixed(2));
     $('#tax').text('$' + (subtotal * .096).toFixed(2));
     $('#total').text('$' + (subtotal * 1.096).toFixed(2));
@@ -48,7 +47,6 @@ $( document ).ready(function(){
       return;
     }
     Materialize.toast('Order Placed!', 4000, 'pink')
-
   };
 
   $('form').submit(submitOrder);
